@@ -47,3 +47,87 @@ Google Gemini Chat Model: Add your Google AI API Key.
 Memory: Currently configured for Simple Memory with a capacity of 2 items, ensuring the bot stays on track without losing the immediate context of the conversation.
 
 Model: Uses the Google Gemini Chat Model for optimized performance and high-speed responses.
+
+
+🚀 Features
+
+📩 Telegram bot integration (real-time message handling)
+
+🧠 AI Agent powered by Google Gemini Chat Model
+
+💬 Context-aware conversations using Simple Memory
+
+🔁 Fully automated workflow using n8n
+
+☁️ Deployable on n8n Cloud or self-hosted n8n
+
+🧩 Workflow Overview
+Telegram Trigger
+      ↓
+   AI Agent
+ (Gemini + Memory)
+      ↓
+Telegram Send Message
+
+🛠️ Requirements
+
+n8n (Cloud or Self-Hosted)
+
+Telegram Bot Token
+
+Google Gemini API Key
+
+🔐 Environment Variables
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+GOOGLE_GEMINI_API_KEY=your_gemini_api_key
+
+⚙️ Setup Instructions
+
+Create a Telegram bot using @BotFather
+
+Copy the Bot Token
+
+Create a new workflow in n8n
+
+Add required nodes:
+
+Telegram Trigger
+
+AI Agent
+
+Google Gemini Chat Model
+
+Simple Memory
+
+Telegram Send Message
+
+Configure credentials
+
+Save and Publish the workflow
+
+📸 Screenshot
+
+📦 Project Structure
+.
+├── README.md
+└── gremiobot.jpg
+
+👨‍💻 Author
+
+Chetan Neware
+
+GitHub: https://github.com/chetanneware20
+
+LinkedIn: (https://www.linkedin.com/in/chetan-neware-39bb54284)
+
+📄 License
+
+MIT License
+
+🙌 Credits
+
+n8n
+
+Google Gemini
+
+Telegram Bot API
